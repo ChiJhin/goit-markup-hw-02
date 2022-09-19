@@ -64,7 +64,9 @@ body {
     background-color: #2196F3;;
     color: #FFFFFF;
 }
-.address-text p, .address-text .nav-link {
+.address-link {
+    font-size: 14px;
+    font-weight: 500;
     line-height: 1.7;
     color: #FFFFFF;
 }
@@ -74,3 +76,4 @@ body {
 .projects .desc {
     line-height: 1.8;
 }
+.address-link:hover, .address-link:focus{color: #2196F3;}
