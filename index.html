@@ -9,25 +9,32 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <a href="">WebStudio</a>
-      <nav>
+    <header class="header">
+      <a href="" class="logo">WebStudio</a>
+      <nav class="nav">
         <ul>
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+          <li><a href="./index.html" class="nav-link">Студія</a></li>
+          <li><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
+          <li><a href="" class="nav-link">Контакти</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="nav-link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="nav-link">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
 
     <main>
-      <section>
+      <section class="hero">
         <h1>Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="btn">Замовити послуг</button>
       </section>
@@ -36,28 +43,28 @@
         <h2>Переваги</h2>
         <ul>
           <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+            <h3 class="subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+            <h3 class="subtitle">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>
+            <h3 class="subtitle">ПЛАНУВАННЯ</h3>
+            <p class="text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+            <h3 class="subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -65,7 +72,7 @@
         </ul>
       </section>
       <section>
-        <h2>Чим ми займаємося</h2>
+        <h2 class="title">Чим ми займаємося</h2>
         <ul>
           <li>
             <img
@@ -94,7 +101,7 @@
         </ul>
       </section>
       <section>
-        <h2>Наша команда</h2>
+        <h2 class="title">Наша команда</h2>
         <ul>
           <li>
             <img
@@ -103,8 +110,8 @@
               width="270"
               height="260"
             />
-            <h3>Ігор Дем'яненко</h3>
-            <p lang="en">Product Designer</p>
+            <h3 class="subtitle-author">Ігор Дем'яненко</h3>
+            <p lang="en" class="text desc">Product Designer</p>
           </li>
           <li>
             <img
@@ -113,8 +120,8 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Рєпіна</h3>
-            <p lang="en">Frontend Developer</p>
+            <h3 class="subtitle-author">Ольга Рєпіна</h3>
+            <p lang="en" class="text desc">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -123,8 +130,8 @@
               width="270"
               height="260"
             />
-            <h3>Микола Тарасов</h3>
-            <p lang="en">Marketing</p>
+            <h3 class="subtitle-author">Микола Тарасов</h3>
+            <p lang="en" class="text desc">Marketing</p>
           </li>
           <li>
             <img
@@ -133,20 +140,26 @@
               width="270"
               height="260"
             />
-            <h3>Михайло Єрмаков</h3>
-            <p lang="en">UI Designer</p>
+            <h3 class="subtitle-author">Михайло Єрмаков</h3>
+            <p lang="en" class="text desc">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
     <footer>
-      <a href="">WebStudio</a>
-      <address>
+      <a href="" class="logo">WebStudio</a>
+      <address class="adsress">
         <ul>
-          <li>м. Київ, пр-т Лесі Українки, 26</li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="adsress-text"><p>м. Київ, пр-т Лесі Українки, 26</p></li>
+          <li class="adsress-text">
+            <a href="mailto:info@devstudio.com" class="nav-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="adsress-text">
+            <a href="tel:+380961111111" class="nav-link">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>

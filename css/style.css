@@ -2,6 +2,75 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
 }
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.hero h1 {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+}
 .btn {
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.hero button {
+    font-weight: 700;
+    line-height: 1.9;
+}
+.text {
+    font-size: 14px;
+    color: #757575;
+    line-height: 1.7;
+}
+.desc {
+    font-size: 16px;
+}
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.subtitle-author {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.picture {
+    font-size: 18px;
+}
+.subtitle-author > .desc {
+    line-height: 1.2;
+}
+.nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.nav-link:hover, .nav-link:focus {
+    color: #2196F3;
+}
+.btn:hover, .btn:focus {
+    background-color: #2196F3;;
+    color: #FFFFFF;
+}
+.address-text p, .address-text .nav-link {
+    line-height: 1.7;
+    color: #FFFFFF;
+}
+.projects .picture {
+    line-height: 2;
+}
+.projects .desc {
+    line-height: 1.8;
 }
