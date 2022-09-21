@@ -6,10 +6,10 @@ body {
     letter-spacing: 0.03em;
 }
 :root {
-    --blue-color: #2196F3;
-    --background: #2F303A;
-    --gray-color: #757575;
-    --white-color: #ffffff;
+    --sub-bg-color: #2196F3;
+    --main-bg-color: #2F303A;
+    --sub-text-color: #757575;
+    --special-text-color: #ffffff;
     --light-blue-color: #188CE8;
 }
 .logo {
@@ -21,7 +21,7 @@ body {
     text-decoration: none;
 }
 .logo-wrap {
-    color: var(--blue-color);
+    color: var(--sub-bg-color);
 }
 .nav-link {
     font-weight: 500;
@@ -31,16 +31,16 @@ body {
     color: #212121;
 }
 .nav-link:hover, .nav-link:focus {
-    color: var(--blue-color);
+    color: var(--sub-bg-color);
 }
 .nav-contact {
-    color: var(--gray-color);
+    color: var(--sub-text-color);
 }
 .footer {
-    background: var(--background);
+    background: var(--main-bg-color);
 }
 .footer .logo {
-    color: var(--white-color);
+    color: var(--special-text-color);
 }
 .address-link {
     line-height: 1.7;
@@ -48,13 +48,13 @@ body {
     text-decoration: none;
 }
 .map-link {
-    color: var(--white-color);
+    color: var(--special-text-color);
 }
 .list {
     list-style-type: none;
 }
 .hero {
-    background: var(--background);
+    background: var(--main-bg-color);
 }
 .hero-title {
     text-transform: uppercase;
@@ -62,7 +62,7 @@ body {
     font-size: 44px;
     letter-spacing: 0.06em;
     line-height: 1.36;
-    color: var(--white-color);
+    color: var(--special-text-color);
     text-align: center;
 }
 .btn {
@@ -71,8 +71,8 @@ body {
     line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
-    background-color: var(--blue-color);
-    color: var(--white-color);
+    background-color: var(--sub-bg-color);
+    color: var(--special-text-color);
     border-style: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -96,7 +96,7 @@ body {
 }
 .text {
     line-height: 1.71;
-    color: var(--gray-color);
+    color: var(--sub-text-color);
 }
 .title {
     font-weight: 700;
@@ -128,8 +128,8 @@ body {
 }
 .list .list-btn:hover,
 .list .list-btn:focus {
-    background-color: var(--blue-color);
-    color: var(--white-color);
+    background-color: var(--sub-bg-color);
+    color: var(--special-text-color);
 }
 .title-portfolio {
     font-size: 18px;
