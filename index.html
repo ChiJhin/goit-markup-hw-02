@@ -13,57 +13,62 @@
   </head>
   <body>
     <header class="header">
-      <a href="" class="logo">WebStudio</a>
+      <a href="" class="logo"><span class="logo-wrap">Web</span>Studio</a>
       <nav class="nav">
-        <ul>
+        <ul class="list">
           <li><a href="./index.html" class="nav-link">Студія</a></li>
           <li><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
           <li><a href="" class="nav-link">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="list">
         <li>
-          <a href="mailto:info@devstudio.com" class="nav-link"
+          <a href="mailto:info@devstudio.com" class="nav-link nav-contact"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a href="tel:+380961111111" class="nav-link">+38 096 111 11 11</a>
+          <a href="tel:+380961111111" class="nav-link nav-contact"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
 
     <main>
       <section class="hero">
-        <h1>Ефективні рішення для вашого бізнесу</h1>
+        <h1 class="hero-title">
+          Ефективні рішення для<br />
+          вашого бізнесу
+        </h1>
         <button type="button" class="btn">Замовити послуг</button>
       </section>
 
       <section>
-        <h2>Переваги</h2>
-        <ul>
+        <h2 class="visually-hidden">Переваги</h2>
+        <ul class="list">
           <li>
-            <h3 class="subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <h3 class="subtitle">Увага до деталей</h3>
             <p class="text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3 class="subtitle">ПУНКТУАЛЬНІСТЬ</h3>
+            <h3 class="subtitle">Пунктуальність</h3>
             <p class="text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3 class="subtitle">ПЛАНУВАННЯ</h3>
+            <h3 class="subtitle">Планування</h3>
             <p class="text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3 class="subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <h3 class="subtitle">Сучасні технології</h3>
             <p class="text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
@@ -73,7 +78,7 @@
       </section>
       <section>
         <h2 class="title">Чим ми займаємося</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/img1.jpg"
@@ -102,64 +107,70 @@
       </section>
       <section>
         <h2 class="title">Наша команда</h2>
-        <ul>
-          <li>
+        <ul class="list">
+          <li class="list-wrap">
             <img
               src="./images/person1.jpg"
               alt="Чоловік в окулярах та з бородою"
               width="270"
               height="260"
             />
-            <h3 class="subtitle-author">Ігор Дем'яненко</h3>
-            <p lang="en" class="text desc">Product Designer</p>
+            <h3 class="subtitle person-name">Ігор Дем'яненко</h3>
+            <p lang="en" class="text staff">Product Designer</p>
           </li>
-          <li>
+          <li class="list-wrap">
             <img
               src="./images/person2.jpg"
               alt="Світловолоса жінка в окулярах"
               width="270"
               height="260"
             />
-            <h3 class="subtitle-author">Ольга Рєпіна</h3>
-            <p lang="en" class="text desc">Frontend Developer</p>
+            <h3 class="subtitle person-name">Ольга Рєпіна</h3>
+            <p lang="en" class="text staff">Frontend Developer</p>
           </li>
-          <li>
+          <li class="list-wrap">
             <img
               src="./images/person3.jpg"
               alt="Чоловік з широкою посмішкою"
               width="270"
               height="260"
             />
-            <h3 class="subtitle-author">Микола Тарасов</h3>
-            <p lang="en" class="text desc">Marketing</p>
+            <h3 class="subtitle person-name">Микола Тарасов</h3>
+            <p lang="en" class="text staff">Marketing</p>
           </li>
-          <li>
+          <li class="list-wrap">
             <img
               src="./images/person4.jpg"
               alt="Чоловік з гарною посмішкою та темним волоссям"
               width="270"
               height="260"
             />
-            <h3 class="subtitle-author">Михайло Єрмаков</h3>
-            <p lang="en" class="text desc">UI Designer</p>
+            <h3 class="subtitle person-name">Михайло Єрмаков</h3>
+            <p lang="en" class="text staff">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <a href="" class="logo">WebStudio</a>
+    <footer class="footer">
+      <a href="" class="logo"><span class="logo-wrap">Web</span>Studio</a>
       <address class="address">
-        <ul>
-          <li class="address-text">
-            <a class="address-link">м. Київ, пр-т Лесі Українки, 26</a>
+        <ul class="list">
+          <li>
+            <a
+              class="address-link map-link"
+              href="https://goo.gl/maps/sGmAFH82e1hSpcsq9"
+              target="_blank"
+              rel="noopener noreferrer"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            >
           </li>
-          <li class="address-text">
+          <li>
             <a href="mailto:info@devstudio.com" class="address-link"
               >info@devstudio.com</a
             >
           </li>
-          <li class="address-text">
+          <li>
             <a href="tel:+380961111111" class="address-link"
               >+38 096 111 11 11</a
             >
